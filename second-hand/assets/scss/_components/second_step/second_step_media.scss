@@ -1,0 +1,324 @@
+@media (max-width:1330px){
+    .second_step{
+        .second_wrapper{
+            .second_wrapper_right{
+                .numbers{
+                    width: 30%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    align-content: flex-end;
+                    flex-wrap: wrap;
+                    padding-left: 0;
+                    li{
+                        a{
+                            font-size: 30px;
+                            line-height: 36px;
+                        }       
+                        .img_phone::before{
+                            left: 18%;
+                        }  
+                    }
+                }
+                .mail{
+                    width: 30%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    align-content: flex-end;
+                    flex-wrap: wrap;
+                    padding-left: 0;
+                    padding-right: 14px;
+                    a{
+                        font-size: 30px;
+                        line-height: 36px;
+                        &::before{
+                            left: 30%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:1200px){
+    .second_step{
+        .second_wrapper{
+            .second_wrapper_right{
+                h3{
+                    width: 40%;
+                }
+                .numbers{
+                    li{
+                        a{
+                            font-size: 28px;
+                            line-height: 30px;
+                        }       
+                        .img_phone::before{
+                            
+                            left: 7%;
+                        }  
+                    }
+                }
+                .mail{
+                    a{
+                        font-size: 28px;
+                        line-height: 30px;
+                        &::before{
+                           
+                            left: 18%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:1024px){
+    .second_step{
+        .second_wrapper{
+            .second_wrapper_right{
+                .numbers{
+                    li{   
+                        .img_phone::before{
+                            content: url(./../images/telsmall.png);
+                        }  
+                    }
+                }
+                .mail{
+                    a{
+                        &::before{
+                            content: url(./../images/mailsmall.png);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:940px){
+    .second_step{
+        .second_wrapper{
+            .second_wrapper_right{
+                h3{
+                    font-size: 22px;
+                }
+                .numbers{
+                    li{
+                        a{
+                            font-size: 24px;
+                            line-height: 26px;
+                        }        
+                    }
+                }
+                .mail{
+                    a{
+                        font-size: 24px;
+                        line-height: 26px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:840px){
+    .second_step{
+        .second_wrapper{
+            .second_wrapper_right{
+                .numbers{
+                    li{     
+                        .img_phone::before{
+                            left: -5%;
+                        }  
+                    }
+                }
+                .mail{
+                    a{
+                        &::before{
+                            left: 8%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:770px){
+    .second_step{
+        .second_wrapper{
+            .second_wrapper_right{
+                h3{
+                    font-size: 20px;
+                }
+                .numbers{
+                    li{      
+                        .img_phone::before{
+                            left: -8%;
+                        }  
+                    }
+                }
+                .mail{
+                    a{
+                        &::before{
+                            left: 4%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:716px){
+    .second_step{
+        .second_wrapper{
+            justify-content: center;
+            .second_wrapper_right{
+                flex-direction: column;
+                h3{
+                    font-size: 24px;
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    span.big_number_media{
+                        display: block;
+                        font-size: 125px;
+                        font-weight: 900;
+                        line-height: 149px;
+                        color: #DF042A;
+                        opacity: 0.6;
+                        width: 20%;
+                        padding-right: 11px;
+                    }
+                }
+                .numbers{
+                    width: 100%;
+                    align-content: normal;
+                    flex-wrap: normal;
+                    padding-bottom: 23px;
+                    li{    
+                        .img_phone::before{
+                            left: 27%;
+                        }  
+                    }
+                }
+                .mail{
+                    width: 100%;
+                    align-content: normal;
+                    flex-wrap: normal;
+                    a{
+                        &::before{
+                            left: 27%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:560px){
+    .second_step{
+        .second_wrapper{
+            .second_wrapper_right{
+                h3{
+                    font-size: 20px;
+                    span.big_number_media{
+                        font-size: 110px;
+                        line-height: 120px;
+
+                    }
+                }
+                .numbers{
+                    li{     
+                        .img_phone::before{
+                            left: 24%;
+                        }  
+                    }
+                }
+                .mail{
+                    a{
+                        &::before{
+                            left: 24%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:500px){
+    .second_step{
+        .second_wrapper{
+            .second_wrapper_right{
+                .numbers{
+                    li{     
+                        .img_phone::before{
+                            left: 20%;
+                        }  
+                    }
+                }
+                .mail{
+                    a{
+                        &::before{
+                            left: 20%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:425px){
+    .second_step{
+        .second_wrapper{
+            .second_wrapper_right{
+                h3{
+                    font-size: 18px;
+                    line-height: 20px;
+                    span.big_number_media{
+                        font-size: 96px;
+                        line-height: 106px;
+                    }
+                }
+                .numbers{
+                    li{    
+                        .img_phone::before{
+                            left: 16%;
+                        }  
+                    }
+                }
+                .mail{
+                    a{
+                        &::before{
+                            left: 16%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:375px){
+    .second_step{
+        .second_wrapper{
+            .second_wrapper_right{
+                .numbers{
+                    li{
+                        a{
+                            font-size: 22px;
+                        }       
+                        .img_phone::before{
+                            left: 12%;
+                        }  
+                    }
+                }
+                .mail{
+                    a{
+                        &::before{
+                            left: 12%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1352 @@
+.mapH{
+    h5{
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        margin: 40px 0;
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        position: relative;
+    }
+    .redLine::before{
+        content: " ";
+        position: absolute;
+        width: 20%;
+        left: 2%;
+        height: 80px;
+        border-left: 1px solid #DF042A;
+        border-top: 1px solid #DF042A;
+        border-radius: 75px 0 0 0 ;
+        bottom: -67%;
+    }
+    .redLine::after{
+        content: " ";
+        position: absolute;
+        width: 20%;
+        right: 2%;
+        height: 80px;
+        border-right: 1px solid #DF042A;
+        border-bottom: 1px solid #DF042A;
+        border-radius:  0 0 75px 0 ;
+        bottom: 60%;
+    }
+}
+.mapB{
+    background-image: url('../img/mapBG.png');
+    background-size: cover;
+    padding: 90px 0 60px;
+    color: white;
+    .mapContainer{
+        max-width: 1400px;
+        margin: 0 auto;
+        .towns{
+            font-size: 30px;
+        }
+        .brd{
+            margin-top: 20px;
+            width: 100px;
+            height: 3px;
+            background-color: #DF042A;
+        }
+        .brdMedia{
+            margin-bottom: 10px;
+            width: 60px;
+            height: 5px;
+            background-color: #DF042A;
+        }
+        h5{
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 30px ;
+            font-family: "Roboto", sans-serif;
+            text-transform: uppercase;
+        }
+        .rndWrap{
+            border-radius: 50%;
+            border: solid 1px white;
+            padding: 2px;
+            width: 18px;
+            height: 18px;
+            .rnd{
+                width:100%;
+                height: 100%;
+                border-radius: 50%;
+                background-color:#DF042A;
+                
+    
+            }
+        }
+        .mapWrap{
+            .loc1{
+                position: absolute;
+                width: 64px;
+                height: 64px;
+                top: 7%;
+                left: 13%;
+                
+            }
+            .loc2{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 23%;
+                left: 9%;
+            }
+            .loc3{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 27%;
+                left: 6%;
+            }
+            .loc4{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 42%;
+                left: 3%;
+            }
+            .loc5{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 39%;
+                left: 10%;
+            }
+            .loc6{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 32%;
+                left: 16%;
+            }
+            .loc7{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 45%;
+                left: 17%;
+            }
+            .loc8{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 13%;
+                left: 22%;
+            }
+            .loc9{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 30%;
+                left: 23%;
+            }
+            .loc10{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 16%;
+                left: 30%;
+            }
+            .loc11{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 40%;
+                left: 32%;
+            }
+            .loc12{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 65%;
+                left: 40%;
+            }
+            .loc13{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 75%;
+                left: 35%;
+            }
+            .loc14{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 25%;
+                left: 39%;
+            }
+            .loc15{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 18%;
+                left: 40%;
+            }
+            .loc16{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 22%;
+                left: 42%;
+            }
+            .loc17{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 38%;
+                left: 42%;
+            }
+            .loc18{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 32%;
+                left: 47%;
+            }
+            .loc19{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 42%;
+                left: 50%;
+            }
+            .loc20{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 44%;
+                left: 53%;
+            }
+            .loc21{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 53%;
+                left: 46%;
+            }
+            .loc22{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 60%;
+                left: 47%;
+            }
+            .loc23{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 5%;
+                left: 49%;
+            }
+            .loc24{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 27%;
+                left: 58%;
+            }
+            .loc25{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 51%;
+                left: 57%;
+            }
+            .loc26{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 41%;
+                left: 64%;
+            }
+            .loc27{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 60%;
+                left: 56%;
+            }
+            .loc28{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 66%;
+                left: 60%;
+            }
+            .loc29{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 68%;
+                left: 55%;
+            }
+            .loc30{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 28%;
+                left: 69%;
+            }
+            .loc31{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 31%;
+                left: 72%;
+            }
+            .loc32{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 24%;
+                left: 74%;
+            }
+            .loc33{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 57%;
+                left: 68%;
+            }
+            .loc34{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 10%;
+                left: 61%;
+            }
+            .loc35{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 34%;
+                left: 82%;
+            }
+            .loc36{
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                top: 55%;
+                left: 78%;
+            }
+        }
+    }
+}
+@media(max-width:1400px){
+    .mapH{
+        .redLine::before{
+            width: 18%;
+        }
+        .redLine::after{
+            width: 18%;
+        }
+    }
+    .mapB{
+        .mapContainer{
+            img{
+                width: 100%;
+            }
+            .mapWrap{
+                .loc1{
+                    width: 60px;
+                    height: 60px;
+                    top: 6%;
+                    left: 15%;
+                }
+                .loc2{
+                    width: 60px;
+                    height: 60px;
+                    top: 23%;
+                    left: 10%;
+                }
+                .loc3{
+                    width: 60px;
+                    height: 60px;
+                    top: 27%;
+                    left: 8%;
+                }
+                .loc4{
+                    width: 60px;
+                    height: 60px;
+                    top: 43%;
+                    left: 4%;
+                }
+                .loc5{
+                    width: 60px;
+                    height: 60px;
+                    top: 40%;
+                    left: 11%;
+                }
+                .loc6{
+                    width: 60px;
+                    height: 60px;
+                    top: 31%;
+                    left: 18%;
+                }
+                .loc7{
+                    width: 60px;
+                    height: 60px;
+                    top: 44%;
+                    left: 18%;
+                }
+                .loc8{
+                    width: 60px;
+                    height: 60px;
+                    top: 13%;
+                    left: 23%;
+                }
+                .loc9{
+                    width: 60px;
+                    height: 60px;
+                    top: 30%;
+                    left: 25%;
+                }
+                .loc10{
+                    width: 60px;
+                    height: 60px;
+                    top: 16%;
+                    left: 33%;
+                }
+                .loc11{
+                    width: 60px;
+                    height: 60px;
+                    top: 41%;
+                    left: 34%;
+                }
+                .loc12{
+                    width: 60px;
+                    height: 60px;
+                    top: 66%;
+                    left: 43%;
+                }
+                .loc13{
+                    width: 60px;
+                    height: 60px;
+                    top: 75%;
+                    left: 38%;
+                }
+                .loc14{
+                    width: 60px;
+                    height: 60px;
+                    top: 25%;
+                    left: 42%;
+                }
+                .loc15{
+                    width: 60px;
+                    height: 60px;
+                    top: 17%;
+                    left: 43%;
+                }
+                .loc16{
+                    width: 60px;
+                    height: 60px;
+                    top: 21%;
+                    left: 46%;
+                }
+                .loc17{
+                    width: 60px;
+                    height: 60px;
+                    top: 38%;
+                    left: 45%;
+                }
+                .loc18{
+                    width: 60px;
+                    height: 60px;
+                    top: 32%;
+                    left: 52%;
+                }
+                .loc19{
+                    width: 60px;
+                    height: 60px;
+                    top: 45%;
+                    left: 54%;
+                }
+                .loc20{
+                    width: 60px;
+                    height: 60px;
+                    top: 45%;
+                    left: 57%;
+                }
+                .loc21{
+                    width: 60px;
+                    height: 60px;
+                    top: 53%;
+                    left: 50%;
+                }
+                .loc22{
+                    width: 60px;
+                    height: 60px;
+                    top: 62%;
+                    left: 51%;
+                }
+                .loc23{
+                    width: 60px;
+                    height: 60px;
+                    top: 5%;
+                    left: 52%;
+                }
+                .loc24{
+                    width: 60px;
+                    height: 60px;
+                    top: 27%;
+                    left: 63%;
+                }
+                .loc25{
+                    width: 60px;
+                    height: 60px;
+                    top: 50%;
+                    left: 62%;
+                }
+                .loc26{
+                    width: 60px;
+                    height: 60px;
+                    top: 42%;
+                    left: 70%;
+                }
+                .loc27{
+                    width: 60px;
+                    height: 60px;
+                    top: 60%;
+                    left: 61%;
+                }
+                .loc28{
+                    width: 60px;
+                    height: 60px;
+                    top: 67%;
+                    left: 66%;
+                }
+                .loc29{
+                    width: 60px;
+                    height: 60px;
+                    top: 69%;
+                    left: 61%;
+                }
+                .loc30{
+                    width: 60px;
+                    height: 60px;
+                    top: 29%;
+                    left: 74%;
+                }
+                .loc31{
+                    width: 60px;
+                    height: 60px;
+                    top: 32%;
+                    left: 78%;
+                }
+                .loc32{
+                    width: 60px;
+                    height: 60px;
+                    top: 24%;
+                    left: 80%;
+                }
+                .loc33{
+                    width: 60px;
+                    height: 60px;
+                    top: 56%;
+                    left: 74%;
+                }
+                .loc34{
+                    width: 60px;
+                    height: 60px;
+                    top: 10%;
+                    left: 66%;
+                }
+                .loc35{
+                    width: 60px;
+                    height: 60px;
+                    top: 34%;
+                    left: 88%;
+                }
+                .loc36{
+                    width: 60px;
+                    height: 60px;
+                    top: 55%;
+                    left: 84%;
+                }
+            }
+        }
+    }
+}
+@media(max-width:1200px){
+    .mapH{
+        .redLine::before{
+            width: 12%;
+        }
+        .redLine::after{
+            width: 12%;
+        }
+    }
+    .mapB{
+        .mapContainer{
+            .mapWrap{
+                .loc1{
+                    width: 50px;
+                    height: 50px;
+
+                }
+                .loc2{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc3{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc4{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc5{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc6{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc7{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc8{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc9{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc10{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc11{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc12{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc13{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc14{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc15{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc16{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc17{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc18{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc19{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc20{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc21{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc22{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc23{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc24{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc25{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc26{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc27{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc28{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc29{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc30{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc31{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc32{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc33{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc34{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc35{
+                    width: 50px;
+                    height: 50px;
+                }
+                .loc36{
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:992px){
+    .mapB{
+        .mapContainer{
+            .towns{
+                font-size: 24px;
+            }
+            .mapWrap{
+                .loc1{
+                    width: 45px;
+                    height: 45px;
+
+                }
+                .loc2{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc3{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc4{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc5{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc6{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc7{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc8{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc9{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc10{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc11{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc12{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc13{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc14{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc15{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc16{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc17{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc18{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc19{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc20{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc21{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc22{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc23{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc24{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc25{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc26{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc27{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc28{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc29{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc30{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc31{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc32{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc33{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc34{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc35{
+                    width: 45px;
+                    height: 45px;
+                }
+                .loc36{
+                    width: 45px;
+                    height: 45px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:768px){
+    .mapB{
+        .mapContainer{
+            .towns{
+                font-size: 20px;
+            }
+            .mapWrap{
+                .loc1{
+                    width: 35px;
+                    height: 35px;
+
+                }
+                .loc2{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc3{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc4{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc5{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc6{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc7{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc8{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc9{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc10{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc11{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc12{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc13{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc14{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc15{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc16{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc17{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc18{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc19{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc20{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc21{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc22{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc23{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc24{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc25{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc26{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc27{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc28{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc29{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc30{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc31{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc32{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc33{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc34{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc35{
+                    width: 35px;
+                    height: 35px;
+                }
+                .loc36{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:576px){
+    .mapB{
+        .mapContainer{
+            .towns{
+                font-size: 18px;
+            }
+            .mapWrap{
+                .loc1{
+                    width: 25px;
+                    height: 25px;
+
+                }
+                .loc2{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc3{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc4{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc5{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc6{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc7{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc8{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc9{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc10{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc11{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc12{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc13{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc14{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc15{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc16{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc17{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc18{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc19{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc20{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc21{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc22{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc23{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc24{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc25{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc26{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc27{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc28{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc29{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc30{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc31{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc32{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc33{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc34{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc35{
+                    width: 25px;
+                    height: 25px;
+                }
+                .loc36{
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:375px){
+    .mapB{
+        .mapContainer{
+            .mapWrap{
+                .loc1{
+                    width: 20px;
+                    height: 20px;
+
+                }
+                .loc2{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc3{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc4{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc5{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc6{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc7{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc8{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc9{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc10{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc11{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc12{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc13{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc14{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc15{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc16{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc17{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc18{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc19{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc20{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc21{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc22{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc23{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc24{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc25{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc26{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc27{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc28{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc29{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc30{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc31{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc32{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc33{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc34{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc35{
+                    width: 20px;
+                    height: 20px;
+                }
+                .loc36{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+}

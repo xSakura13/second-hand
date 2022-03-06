@@ -1,0 +1,240 @@
+.variantH{
+    .redLine{
+        color: black;
+        padding:0 0 40px ;
+        position: relative;
+    }
+    .redLine::after{
+        content: ' ';
+        position: absolute;
+        width: 600px;
+        height: 700px;
+        border-radius:0 0 75px 0;
+        border-right: #DF042A solid 1px;
+        border-bottom: #DF042A solid 1px;
+        top: -400%;
+        right: -75%;
+        z-index: -1;
+    }
+    .redLine::before{
+        content: ' ';
+        position: absolute;
+        width: 50px;
+        height: 115px;
+        border-radius:75px 0 0 0;
+        border-left: #DF042A solid 1px;
+        border-top: #DF042A solid 1px;
+        top: 33%;
+        left: -6%;
+    }
+}
+
+
+.variant{
+    background-image: url('../img/variantBG.png');
+    background-size: cover;
+    padding: 90px 0 80px;
+    .brdr1{
+        border-radius: 0 0 0 100px;
+    }
+    .brdr{
+        border-radius: 0 0 100px 0;
+    }
+    .content{
+        position: relative;
+        background-color: white;
+        padding-top: 40px;
+        .variantBody{
+            height: 535px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        h3{
+            text-transform: uppercase;
+        }
+        .brd{
+            border-bottom: #C6C6C6 solid 1px;
+        }
+        .abs1{
+            position: absolute;
+            width: 20px;
+            height: 115px;
+            background-color: #DF042A;
+            top: 0;
+            right: 0;
+        }
+        .number{
+            font-weight: bold;
+            font-size: 288px;
+            height: 100%;
+            line-height: 220px;
+            color: #DF042A;
+            opacity: 0.2;
+            .abs{
+                position: absolute;
+                top: 10px;
+                left: -23px;
+            }
+            .abs2{
+                position: absolute;
+                top: 10px;
+                left: -9px;
+            }
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            li{
+                .pointer{
+                    width: 18px;
+                    height: 18px;
+                    border-radius: 50%;
+                    background-color: #DF042A;
+                }
+            }
+        }
+        .btn-custom{
+            border: #DF042A solid 1px;
+            margin-top: 30px;
+            margin-bottom: 0;
+        }
+    }
+}
+@media(max-width:1400px){
+    .variantH{
+        .redLine::after{
+            width: 550px;
+
+            top: -452%;
+            right: -73%;
+        }
+        .redLine::before{
+            height: 103px;
+        }
+    }
+    .variant{
+        .content{
+            .mt-8{
+                margin-top:21px ;
+            }
+        }
+    }    
+}
+@media(max-width:1200px){
+    .variantH{
+        .redLine::after{
+            width: 470px;
+
+            top: -496%;
+            right: -70%;
+        }
+        .redLine::before{
+            width: 45px;
+            height: 96px;
+
+            left: -4%;
+        }
+    }
+}
+@media(max-width:992px){
+    .variantH{
+        .redLine::after{
+            width: 320px;
+
+            right: -25%;
+        }
+    }
+    .variant{
+        .content{
+            .variantBody{
+                height: 460px;
+            }
+            .mt-8{
+                margin-top:0 ;
+            }
+            .number{
+                
+                font-size: 235px;
+                .abs{
+                    left: -19px;
+                }
+            }
+            .btn-custom{
+                width: 100%;
+            }
+        }
+        .brdr{
+            border-radius: 0 0 0 100px;
+        }
+    }
+}
+@media(max-width:768px){
+    .variantH{
+        .redLine::after{
+            display: none;
+        }
+        .redLine::before{
+            display: none;
+        }
+    }
+    .variant{
+        .content{
+            img{
+                width: 100%;
+            }
+            .number{
+                font-size: 211px;
+            }
+
+        }
+
+    }
+}
+@media(max-width:576px){
+    .variantH{
+        h1{
+            font-size: 30px;
+        }
+    }
+    .variant{
+        .content{
+            img{
+                width: 120%;
+            }
+
+
+        }
+
+    }
+}
+@media(max-width:410px){
+    .variant{
+        .brdr{
+            border-radius: 0 0 0 50px;
+        }
+        .content{
+            .variantBody{
+                height: 505px;
+            }
+            img{
+                width: 150%;
+            }
+
+
+        }
+
+    }
+}
+@media(max-width:375px){
+    .variant{
+        .content{
+            img{
+                width: 180%;
+            }
+
+
+        }
+
+    }
+}

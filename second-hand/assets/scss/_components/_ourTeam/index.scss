@@ -1,0 +1,178 @@
+.ourTeam{
+    padding: 60px 0;
+    .redLine{
+        position: relative;
+    }
+    .redLine::before{
+        content: " ";
+        position: absolute;
+        border-radius: 0 0 0 75px;
+        border-left: #DF042A solid 1px;
+        border-bottom: #DF042A solid 1px;
+        top: -100%;
+        left: 0;
+        width: 30%;
+        height: 90px;
+        
+    }
+    .redLine::after{
+        content: " ";
+        position: absolute;
+        border-bottom: #DF042A solid 1px;
+        top: -100%;
+        right: 0;
+        width: 30%;
+        height: 90px;
+        
+    }
+    .redLineConvoy{
+        position: relative;
+    }
+    .redLineConvoy::before{
+        content: " ";
+        position: absolute;
+        width: 10%;
+        height: 1px;
+        border-bottom: #DF042A solid 1px;
+        bottom: 50%;
+        left: -12%;
+    }
+    .card_list1, .card_list2{
+        .slick-list{
+            padding: 100px 0!important;
+        }
+        .cart{
+            
+            img{
+                box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.13);
+                margin-bottom: 15px;
+                width: 100%;
+            }
+
+            .cart_wrapper{
+                width: 90%;
+                .brd{
+                    padding-left: 10px;
+                    border-left: #DF042A solid 5px;
+                }
+                .text{
+                    margin-left: 30px;
+                    font-size: 14px;
+                    color: #666666;
+                    .h7{
+                        font-size: 18px;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:1400px){
+    .ourTeam{
+        .redLine::before{
+            top: -116%;
+            height: 85px;
+            
+        }
+        .redLine::after{
+            top: -116%;
+            height: 85px;
+        }
+    }
+};
+@media(max-width:1200px){
+    .ourTeam{
+        .redLine::before{
+            top: -130%;
+            height: 80px;
+            
+        }
+        .redLine::after{
+            top: -130%;
+            height: 80px;
+            
+        }
+    }
+}
+@media(max-width:992px){
+    .ourTeam{
+        .redLine::before{
+            top: -132%;
+            height: 87px;
+            width: 25%;
+        }
+        .redLine::after{
+            top: -95%;
+            height: 70px;
+            width: 25%;
+            
+        }
+        .redLineConvoy::before{
+            width: 4%;
+            
+            left: -4%;
+        }
+    }
+}
+
+@media(max-width:768px){
+    .ourTeam{
+        padding: 40px 0; 
+        .redLine::before{
+            width: 20%;
+        }
+        .redLine::after{
+            width: 20%;
+            
+        }
+        .redLineConvoy::before{
+            display: none;
+        }
+        .card_list1, .card_list2{
+            .slick-list{
+                padding: 60px 0!important;
+            }
+            .cart{
+                
+                img{
+                    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.13);
+                    margin-bottom: 15px;
+                    width: 100%;
+                }
+    
+                .cart_wrapper{
+                    width: 90%;
+                    .brd{
+                        padding-left: 5px;
+                    } 
+                    .text{
+                        margin-left: 10px;
+                        font-size: 13px;
+                        .h7{
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:576px){
+    .ourTeam{
+        .redLine{
+            text-align: left;
+        }
+        .redLine::before{
+            display: none;
+        }
+        .redLine::after{
+            width: 20%;
+            top: 0;
+            right: 0;
+            height: 1px;
+            background-color: #DF042A;
+            
+        }
+    }
+}

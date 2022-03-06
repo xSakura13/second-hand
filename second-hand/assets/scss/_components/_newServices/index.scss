@@ -1,0 +1,19 @@
+.newService{
+    padding: 80px 0;
+    background-color: #DF042A;
+    color: white;
+    background-image: url('../img/flag.svg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    .brd{
+        border-left: solid 7px white;
+        padding-left: 15px;
+    }
+    .btn-custom{
+        width: 100%;
+        border: #DF042A solid 1px;
+    }
+    .btn-custom:hover{
+        border: white solid 1px;
+    }
+}

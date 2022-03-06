@@ -1,0 +1,255 @@
+@media (max-width:1150px){
+    .content_third{
+        .third_wrapper{
+            .third_title{
+                .title_left{
+                    p{
+                        font-size: 36px;
+                        line-height: 40px;
+                    }
+                }
+                .title_right{
+                    h3{
+                        font-size: 36px;
+                        line-height: 40px;
+                        margin: 0;
+                        span{
+                            font-size: 76px;
+                            line-height: 80px;
+                        }
+                    }
+                }
+            }
+            .third_right{
+                .right_wrapper{
+                    h3{
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+                    a{
+                        font-size: 30px;
+                        line-height: 34px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:880px){
+    .content_third{
+        .third_wrapper{
+            .third_title{
+                .title_left{
+                    p{
+                        font-size: 32px;
+                        line-height: 36px;
+                    }
+                }
+                .title_right{
+                    h3{
+                        font-size: 32px;
+                        line-height: 36px;
+                        margin: 0;
+                        span{
+                            font-size: 56px;
+                            line-height: 62px;
+                        }
+                    }
+                    p{
+                        font-size: 22px;
+                        line-height: 26px;
+                    }
+                }
+            }
+            .third_right{
+                .right_wrapper{
+                    h3{
+                        font-size: 18px;
+                        line-height: 20px;
+                        margin: 0;
+                        padding-top: 55px;
+                    }
+                    a{
+                        font-size: 26px;
+                        line-height: 30px;
+                        padding-bottom: 5px;
+                    }
+                    a.phone::before{
+                        content: url(./../images/telsmall.png);
+                        left: 1%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:780px){
+    .content_third{
+        .third_wrapper{
+            .third_title{
+                .title_left{
+                    p{
+                        font-size: 28px;
+                        line-height: 32px;
+                        margin: 0;
+                    }
+                }
+                .title_right{
+                    h3{
+                        font-size: 28px;
+                        line-height: 32px;
+                        span{
+                            font-size: 50px;
+                            line-height: 56px;
+                        }
+                    }
+                }
+            }
+            .third_right{
+                .right_wrapper{
+                    h3{
+                        font-size: 16px;
+                        line-height: 18px;
+                    }
+                    a{
+                        font-size: 24px;
+                        line-height: 26px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:716px){
+    .content_third{
+        .third_wrapper{
+            .third_title{
+                .title_left{
+                    p{
+                        font-size: 24px;
+                        line-height: 26px;
+                    }
+                }
+                .title_right{
+                    h3{
+                        font-size: 24px;
+                        line-height: 26px;
+                    }
+                }
+            }
+            .third_left{
+                width: 100%;
+                position: relative;
+                .gradient{
+                    background: linear-gradient(360deg, #DF042A 15.93%, rgba(223, 4, 42, 0) 79.64%);
+                    position: absolute;
+                    width: 100%;
+                    height: 250px;
+                    bottom: -1%;
+                }
+            }
+            .third_right{
+                width: 100%;
+                background-color: #DF042A;
+                background-image: none;
+                padding-bottom: 40px;
+                .right_wrapper{
+                    width: 100%;
+                    h3{
+                        color: #FFFFFF;
+                        font-size: 24px;
+                        line-height: 28px;
+                        padding-top: 0;
+                    }
+                    a{
+                        color: #FFFFFF;
+                        font-size: 36px;
+                        line-height: 40px;
+                    }
+                    a.phone::before{
+                        content: url(./../images/tel_white.png);
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:600px){
+    .content_third{
+        .third_wrapper{
+            .third_title{
+                display: block;
+                .title_left{
+                    width: 100%;
+                    padding-bottom: 20px;
+                }
+                .title_right{
+                    width: 100%;
+                    h3{
+                        font-size: 30px;
+                        line-height: 34px;
+                        padding-bottom: 10px;
+                        span{
+                            font-size: 72px;
+                            line-height: 76px;
+                        }
+                    }
+                    p{
+                        font-size: 30px;
+                        line-height: 34px;
+                        padding-top: 10px;
+                        margin: 0;
+                    }
+                }
+            }
+            .third_right{
+                .right_wrapper{
+                    width: 95%;
+                    h3{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:375px){
+    .content_third{
+        .third_wrapper{
+            .third_title{
+                .title_left{
+                    p{
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+                }
+                .title_right{
+                    h3{
+                        font-size: 20px;
+                        line-height: 24px;
+                        span{
+                            font-size: 66px;
+                            line-height: 70px;
+                        }
+                    }
+                    p{
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+                }
+            }
+            .third_right{
+                .right_wrapper{
+                    h3{
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+                    a{
+                        font-size: 30px;
+                        line-height: 36px;
+                    }
+                }
+            }
+        }
+    }
+}

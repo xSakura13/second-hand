@@ -1,0 +1,54 @@
+.second_step{
+    .second_wrapper{
+        .second_wrapper_right{
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h3{
+                span.big_number_media{
+                    display: none;
+                }
+                width: 38%;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 26px;
+                text-align: left;
+            }
+            .numbers{
+                width: 25%;  
+                position: relative;
+                margin: 0;
+                li{
+                    padding-top: 5px;
+                    a{
+                        font-size: 36px;
+                        font-weight: 700;
+                        line-height: 40px;  
+                        color: #000000;
+                    }       
+                    .img_phone::before{
+                        content: url(./../images/phoneblue.png);
+                        position: absolute;
+                        left: -8%;
+                    }  
+                }
+            }
+            .mail{
+                width: 25%;
+                position: relative;
+                a{
+                    font-size: 36px;
+                    font-weight: 400;
+                    line-height: 40px;
+                    color: #000000; 
+                    &::before{
+                        content: url(./../images/mailblue.png);
+                        position: absolute;
+                        left: -14%;
+                    }
+                }
+            }
+        }
+    }
+}

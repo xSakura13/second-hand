@@ -1,0 +1,226 @@
+.discount{
+    padding: 40px 0;
+    .line{
+        position: relative;
+    }
+    .line::before{
+        content: " ";
+        position: absolute;
+        height: 1px;
+        width: 100px;
+        left: 0%;
+        top: 50%;
+        background-color: #DF042A;
+
+    }
+    .line::after{
+        content: " ";
+        position: absolute;
+        height: 1px;
+        width: 100px;
+        right: 0%;
+        top: 50%;
+        background-color: #DF042A;
+
+    }
+    .item1{
+        .bg{
+            background-image: url('../img/discount1.png');
+            background-size: cover;
+            height: 100%;
+        }
+
+    }
+    .item2{
+        .bg{
+            background-size: cover;
+            height: 100%;
+            background-image: url('../img/discount2.png');
+        }
+
+    }
+    .item3{
+        .bg{
+            background-size: cover;
+            background-image: url('../img/discount3.png');
+            height: 100%;
+        }
+
+    }
+    .item1 , .item2 , .item3 {
+        display: block;
+        padding: 20px;
+        height:432px ;
+        .bg{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .shad{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 40px;
+                text-transform: uppercase;
+                font-weight: bold;
+                background-color:#000000 ;
+                background: rgba(0,0,0, 0.4);
+                text-align: center;
+            }
+            .abs5{
+                bottom: 0;
+                right: 0;
+                width: 12px;
+                height: 170px;
+                position: absolute;
+                background-color: #DF042A;
+            }
+        }
+    }
+    .item1:hover , .item2:hover , .item3:hover{
+        .bg{
+            align-items: flex-end;
+            .shad{
+                height: 170px;
+                transition: 500ms;
+            }
+        }
+    } 
+}
+@media(max-width:1400px){
+    .discount{
+        .line::before{
+            width: 60px;
+    
+        }
+        .line::after{
+            width: 60px;
+        }
+        .item1 , .item2 , .item3 {
+            padding: 0;
+            height:356px ;
+            .bg{
+                .shad{
+                    font-size: 37px;
+                    padding: 0 10px;
+                }
+                .abs5{
+                    height: 150px;
+                }
+            }
+        }
+        .item1:hover , .item2:hover , .item3:hover{
+            .bg{
+                .shad{
+                    height: 150px;
+                }
+            }
+        } 
+    }
+}
+@media(max-width:1200px){
+    .discount{
+        .line::before{
+            width: 20px;
+    
+        }
+        .line::after{
+            width: 20px;
+        }
+        .item1 , .item2 , .item3 {
+            padding: 0;
+            height:296px ;
+            .bg{
+                .shad{
+                    font-size: 32px;
+                }
+                .abs5{
+                    height: 125px;
+                }
+            }
+        }
+        .item1:hover , .item2:hover , .item3:hover{
+            .bg{
+                .shad{
+                    height: 125px;
+                }
+            }
+        } 
+    }
+
+}
+@media(max-width:992px){
+    .discount{
+        .line::before{
+            width: 90px;
+    
+        }
+        .line::after{
+            width: 90px;
+        }
+        .item1 , .item2 , .item3 {
+
+            height:336px ;
+            margin-bottom: 25px;
+
+        }
+        
+    }
+
+}
+@media(max-width:768px){
+    .discount{
+        .item1 , .item2 , .item3 {
+
+            height:246px ;
+            .bg{
+                .shad{
+                    font-size: 26px;
+                }
+                .abs5{
+                    height: 120px;
+                }
+            }
+        }
+        .item1:hover , .item2:hover , .item3:hover{
+            .bg{
+                .shad{
+                    height: 120px;
+                }
+            }
+        } 
+    }
+
+}
+@media(max-width:576px){
+    .discount{
+        .line::before{
+            display: none;
+    
+        }
+        .line::after{
+            display: none;
+        }
+        .item1 , .item2 , .item3 {
+
+            height:170px ;
+            .bg{
+                .abs5{
+                    height: 170px;
+                }
+            }
+        }
+        .item1:hover , .item2:hover , .item3:hover{
+            .bg{
+                .shad{
+                    height: 170px;
+
+                }
+            }
+        } 
+    }
+
+}

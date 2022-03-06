@@ -1,0 +1,85 @@
+.content_first{
+    img{
+        max-width: 100%;
+    }
+    .first_wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        .first_left{
+            width: 50%;
+            padding: 70px 0;
+            display: flex;
+            justify-content: flex-end;
+            .img_group{
+                width: 585px;
+                height: 369px;
+                background-color: #DF042A;
+                border-radius: 0 0 0 70px;
+                position: relative;
+                img{
+                    position: absolute;
+                    top: 15px;
+                    left: -15px;
+                    border-radius: 0 0 0 70px;
+                }
+            }
+        }
+        .first_right{
+            width: 47%;
+            padding: 70px 0;
+            display: flex;
+            align-items: center;
+            .right_text{
+                width: 100%;
+                position: relative;
+                h2{
+                    width: 90%;
+                    position: absolute;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    text-align: left;
+                    color: #828282;
+                    top: 30px;
+                    left: 30px;
+                }
+            }
+        }
+        .first_bottom{
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            .block_bg{
+                width: 90%;
+                background-color: #df042a;
+                display: flex;
+                align-items: center;
+                position: relative;
+                .bottom_img{
+                    width: 20%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .bottom_text{
+                    width: 75%;
+                    padding: 40px 0;
+                    p{
+                        color: #FFFFFF;
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 28px;
+                        text-align: left;                        
+                    }
+                }
+                .white_line{
+                    width: 1.5%;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+            }
+        }
+    }
+}

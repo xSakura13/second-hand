@@ -1,0 +1,285 @@
+@media (max-width:1360px){
+    .bannerr{
+        .banner-wrapper{
+            .carousel-inner{
+                .carousel-item{
+                    .carousel-caption{
+                        left: 8%;
+                        h2{
+                            font-size: 42px;
+                            line-height: 50px;
+                        }
+                        p{
+                            padding-bottom: 20px;
+                        }
+                        form{
+                            padding: 15px 0;
+                            a{
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:1150px){
+    .bannerr{
+        .banner-wrapper{
+            .carousel-inner{
+                .carousel-item{
+                    .carousel-caption{
+                        width: 70%;
+                        bottom: 4.25rem;
+                        h2{
+                            font-size: 38px;
+                            line-height: 45px;
+                            padding-bottom: 14px;
+                        }
+                        p{
+                            font-size: 20px;
+                            line-height: 28px;
+                            padding-bottom: 15px;
+                        }
+                        form{
+                            width: 50%;
+                            padding: 10px 0;
+                            a{
+                                font-size: 16px;
+                                line-height: 20px;
+                            }
+                            .img-red-arrow{
+
+                                img{
+                                    width: 80%;
+                                    padding: 7px 0 0 12px;
+                                }
+                                
+                            }
+                            .img-red-tel{
+                                img{
+                                    width: 85%;
+                                    padding: 2px 10px 0 0 ;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:1000px){
+    .bannerr{
+        .banner-wrapper{
+            .carousel-inner{
+                .carousel-item{
+                    .carousel-caption{
+                        width: 70%;
+                        bottom: 3.75rem;
+                        h2{
+                            font-size: 34px;
+                            line-height: 38px;
+                        }
+                        p{
+                            font-size: 18px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:900px){
+    .bannerr{
+        .banner-wrapper{
+            .carousel-indicators{
+                .circle{
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+            .carousel-inner{
+                .carousel-item{
+                    .carousel-caption{
+                        bottom: 3rem;
+                        h2{
+                            font-size: 30px;
+                            line-height: 35px;
+                            padding-bottom: 10px;
+                        }
+                        p{
+                            font-size: 16px;
+                            line-height: 20px;
+                            padding-bottom: 12px;
+                        }
+                        form{
+                            width: 60%;
+                            padding: 7px 0;
+                            a{
+                                font-size: 14px;
+                                line-height: 18px;
+                            }
+                            .img-red-arrow{
+
+                                img{
+                                    width: 70%;
+                                    padding: 5px 0 0 10px;
+                                }
+                                
+                            }
+                            .img-red-tel{
+                                img{
+                                    width: 80%;
+                                    padding: 1px 8px 0 0 ;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:768px){
+    .bannerr{
+        .banner-wrapper{
+            .carousel-control-prev-icon{
+                width: 1rem;
+                height: 2rem;
+            }
+            .carousel-control-next-icon{
+                width: 1rem;
+                height: 2rem;
+            }
+            .carousel-indicators{
+                margin-bottom: 10px;
+                .circle{
+                    width: 10px;
+                    height: 10px;
+                }
+            }
+            .carousel-inner{
+                .carousel-item{
+                    .carousel-caption{
+                        width: 60%;
+                        bottom: 2rem;
+                        h2{
+                            font-size: 20px;
+                            line-height: 24px;
+                            padding-bottom: 5px;
+                            
+                        }
+                        p{
+                            font-size: 16px;
+                            line-height: 18px;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:691px){
+    .bannerr{
+        .banner-wrapper{
+            .carousel-inner{
+                .carousel-item{
+                    .carousel-caption{
+                        width: 75%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:588px){
+    .banner{
+        .banner-wrapper{
+            .carousel-control-prev-icon{
+                width: 1rem;
+                height: 2rem;
+            }
+            .carousel-control-next-icon{
+                width: 1rem;
+                height: 2rem;
+            }
+            .carousel-indicators{
+                margin-bottom: 119px;
+                .circle{
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+            .carousel-inner{
+                .carousel-item{
+                    img.onlyHeight{
+                        height: 517px;
+                    }
+                    .carousel-caption{
+                        width: 85%;
+                        
+                        h2{
+                            font-size: 32px;
+                            line-height: 42px;
+                            padding-bottom: 20px;
+                        }
+                        p{
+                            font-size: 18px;
+                            line-height: 24px;
+                            padding-bottom: 113px;
+                        }
+                        form{
+                            width: 100%;
+                            padding: 15px 0;
+                            a{
+                                font-size: 18px;
+                                line-height: 21px;
+                            }
+                            .img-red-arrow{
+                                img{
+                                    padding: 7px 0 0 10px;
+                                }
+                            }
+                            .img-red-tel{
+                                img{
+                                    padding: 2px 8px 0 0 ;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:414px){
+    .bannerr{
+        .banner-wrapper{
+            .carousel-inner{
+                .carousel-item{
+                    .carousel-caption{
+                        bottom: 2.25rem;
+                        h2{
+                            font-size: 26px;
+                            line-height: 30px;
+                        }
+                        p{
+                            font-size: 16px;
+                            line-height: 22px;
+                        }
+                        form{
+                            padding: 10px 0;
+                            a{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,143 @@
+.whySort{
+    padding: 50px 0;
+    background: url('../img/whySortbg.png') no-repeat;
+    background-size: 100% 70%;
+    background-position: bottom;
+    background-color: #F8F8F8;
+    .redLine{
+        position: relative;
+    }
+    .redLine::before{
+        content: " ";
+        position: absolute;
+        border-radius: 0 0 0 75px;
+        border-bottom: solid 1px #DF042A;
+        border-left: solid 1px #DF042A;
+        top: -61%;
+        left: 5%;
+        width: 500px;
+        height: 90px;
+    }
+    .item{
+        background-color: #DF042A;
+        color: white;
+        transition: 400ms;
+        text-align: center;
+        border-radius: 50px;
+        height: 361px;
+        padding: 20px 10px;
+
+        svg{
+            fill: white;
+            transition: 400ms;
+            margin-bottom: 20px ;
+            width: 91px;
+            height: 91px;
+        }
+    }
+    .item:hover{
+        background-color: white;
+        color: #000000;
+        transition: 400ms;
+
+        svg{
+            fill: #000000;
+            transition: 400ms;
+        }
+    }
+}
+@media(max-width:1400px){
+    .whySort{
+        padding: 40px 0;
+        .redLine::before{
+            top: -52%;
+            left: 1%;
+            width: 450px;
+            height: 70px;
+        }
+        .item{
+            height: 309px;
+            padding: 15px 10px;
+    
+            svg{
+                margin-bottom: 15px ;
+                width: 85px;
+                height: 85px;
+            }
+        }
+        
+    }
+}
+@media(max-width:1200px){
+    .whySort{
+        .redLine::before{
+            top: -44%;
+            width: 380px;
+            height: 65px;
+        }
+        .item{
+            height: 256px;
+            padding: 10px 5px;
+            font-size: 18px;
+            svg{
+                margin-bottom: 5px ;
+                width: 70px;
+                height: 70px;
+            }
+        }
+        
+    }
+}
+@media(max-width:992px){
+    .whySort{
+        .redLine::before{
+            display: none;
+        }
+        .item{
+            height: 336px;
+            padding: 40px 10px;
+    
+            svg{
+                margin-bottom: 40px ;
+                width: 85px;
+                height: 85px;
+            }
+        }
+        
+    }
+}
+@media(max-width:768px){
+    .whySort{
+        padding: 30px 0;
+        .item{
+            height: 246px;
+            padding: 5px ;
+            
+            svg{
+                margin-bottom: 10px ;
+                width: 60px;
+                height: 60px;
+            }
+        }
+        
+    }
+}
+@media(max-width:576px){
+    .whySort{
+        background-size: 0 0;
+        .redLine{
+            text-align: center;
+        }
+        .item{
+            height: 100%;
+            padding: 20px 10px ;
+            
+            svg{
+                margin-bottom: 15px ;
+                width: 50px;
+                height: 50px;
+            }
+        }
+        
+    }
+}

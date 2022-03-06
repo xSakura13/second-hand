@@ -1,0 +1,173 @@
+.navigation{
+    background-color: #01206C;
+    background-image: url(./../images/Rectangle385.png);
+    background-size: contain;
+    .navigation-row{
+        padding-top: 15px;
+        .logo{
+            display: flex;
+            width: 30%;
+            align-items: center;
+            a{
+                width: 90%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .row-left-navigation{
+            width: 70%;
+            .row-top{
+                align-items: center;
+                .search_col{
+                    width: 40%;
+                    .search{
+                        position: relative;
+                        .form-search{
+                            background: transparent;
+                            color: #C6C6C6;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 16px;
+                            text-align: left;
+                            border: 1px solid #C6C6C6;
+                            padding: 11px 22px;
+                            width: 100%;
+                            &::placeholder{
+                                color: #FFFFFF;
+                            }
+                        }
+                        .submit-search{
+                            background-color: #FFFFFF;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            .btn-search{
+                                background: url(./../images/search.png) no-repeat 50% 50%;
+                                padding: 0 18px 12px 17px;
+                                border: 0;
+                            }
+                        }
+                    }
+                }
+                .icon_social-logo{
+                    width: 10%;
+                    .img-social{
+                        justify-content: flex-end; 
+                        a{
+                            padding: 4px;
+                            margin-left: 10px;
+                            border-radius: 5px;
+                            display: flex;
+                            justify-content: center;
+                            align-content: center;
+                            svg{
+                                width: 24px;
+                                height: 26px;
+                                fill: #FFFFFF;
+                            }
+                            &:hover{
+                                background-color: #FFFFFF;
+                                transition: 0.5s all;
+                                svg{
+                                    fill: #DF042A;
+                                }
+                            }
+                        }
+                        .search-media{
+                            display: none;
+                        }
+                    }
+                }
+                .contact-tel{
+                    width: 40%;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    a{
+                        font-size: 20px;
+                        font-weight: 700;
+                        line-height: 23px;
+                        color: #FFFFFF;
+                        text-align: center;
+                        padding: 6px;
+                        margin-left: 10px;
+                        &:hover{
+                            background: #df042a;
+                            border-radius: 8px;
+                        }
+                    }
+                    img{
+                        padding: 4px;
+                        &:hover{
+                            background: #df042a;
+                            border-radius: 8px;
+                        }
+                    }
+                }
+                .language-select{
+                    width: 10%;
+                    opacity: 0;
+                }
+                .burger-menu{
+                    display: none;
+                }
+            }
+            .row-bottom{
+                .navbar{
+                    padding: 0;
+                    max-width: 100%;
+                    &-nav{
+                        .menu-item{
+                            text-transform: uppercase;
+                            position: relative;
+                            a{
+                                padding: 18px 23px;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 19px;
+                                color: #FFFFFF;
+                                display: block;
+                                &:hover{
+                                    background-color: #FFFFFF;
+                                    border-radius: 13px;
+                                    color: #DF042E;
+                                    font-weight: 700;
+                                    border-bottom: 1px solid #DF042E;
+                                    transition: 0.3s;
+                                }
+                            }
+                            .last-child{
+                                padding-right: 2px;
+                            }
+                        }
+                        .current-menu-item{
+                            text-transform: uppercase;
+                            a{
+                                font-size: 16px;
+                                color: #DF042E;
+                                font-weight: 700;
+                                border-radius: 13px;
+                                background-color: #FFFFFF;
+                                border-bottom: 1px solid #DF042E;
+                            }
+                        }
+                        .menu-item:not(:nth-child(1)){
+                            &::after{
+                                content: url(./../images/Vector4.png);
+                                position: absolute;
+                                left: 0;
+                                top: 24%;
+                            }
+                        }
+                    }
+                    .collapse{
+                        justify-content: space-around;
+                    }
+    
+                }
+            }
+        }
+
+    }
+}

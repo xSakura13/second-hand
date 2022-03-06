@@ -1,0 +1,64 @@
+@media (max-width:1100px){
+    .contacts{
+        .british_contact{
+            .british_wrapper{
+                h2{
+                    font-size: 44px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:1024px){
+    .contacts{
+        .british_contact{
+            .british_wrapper{
+                h2{
+                    font-size: 37px;
+                    line-height: 45px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:820px){
+    .contacts{
+        .british_contact{
+            .british_wrapper{
+                justify-content: center;
+                h2{
+                    font-size: 36px;
+                    width: 90%;
+                    line-height: 40px;
+                    padding-top: 40px;
+                }
+                .red_line{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media (max-width:716px){
+    .contacts{
+        .british_contact{
+            .british_wrapper{
+                h2{
+                    font-size: 30px;
+                    line-height: 35px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:400px){
+    .contacts{
+        .british_contact{
+            .british_wrapper{
+                h2{
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}

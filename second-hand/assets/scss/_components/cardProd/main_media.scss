@@ -1,0 +1,257 @@
+@media (max-width:1350px){
+    .card_container{
+        .title{
+          h2.text_title{
+              padding: 53px 26px;
+          }
+        }
+    }
+}
+@media (max-width:1230px){
+    .card_container{
+        .title{
+          h2.text_title{ 
+              padding: 46px 23px;     
+          }
+        }
+    }
+}
+@media (max-width:1150px){
+    .card_container{
+        .title{
+          h2.text_title{    
+              padding: 40px 20px;  
+          }
+          &:after{
+            content: none;
+          }
+          &:before{
+            left: auto;
+          }
+        }
+    }
+}
+@media (max-width:1040px){
+    .card_container{
+        .title{
+          h2.text_title{   
+              font-size: 44px;
+              line-height: 52px;
+              padding: 38px 16px; 
+          }
+        }
+      .list_content{
+        .big, .small{
+          .card_items{
+            .card_body{
+              .body_bottom{
+                a{
+                  svg{
+                    width: 40px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+}
+@media (max-width:940px){
+    .card_container{
+        .title{
+          h2.text_title{     
+              font-size: 40px;
+              line-height: 46px;
+              padding: 36px 12px; 
+          }
+        }
+    }
+}
+@media (max-width:900px){
+    .card_container{
+        .title{
+          h2.text_title{    
+                font-size: 38px;
+                line-height: 44px;
+                padding: 32px 12px;
+          }
+        }
+        .list_content{
+            .big, .small{
+              .card_items{
+                  width: 250px;
+                .card_body{
+                  .body_bottom{
+                      height: 240px;
+                    .number{
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+                    .clothes{
+                        font-size: 14px;
+                    }
+                    .price{
+                        font-size: 40px;
+                    }
+                    a{
+                        font-size: 20px;
+                    }
+                  }
+                }
+              }
+            }
+            .small{
+              .card_items{
+                .card_body{
+                  .body_bottom{
+                    .number{
+                        padding: 32px 0 29px 0;
+                    }
+                  }
+                }
+              }
+            }
+        }
+    }
+}
+@media (max-width:768px){
+    .card_container{
+        .title{
+          h2.text_title{     
+            font-size: 36px;
+            line-height: 40px;
+            padding: 22px 27px; 
+          }
+        }
+        .list_content{
+            .big, .small{
+                padding-bottom: 180px;
+              .card_items{
+                  height: 185px;
+                .card_body{
+                  .body_top{
+                    min-height: 21px;
+                    span{
+                        font-size: 12px;
+                        line-height: 15px;
+                    }
+                  }
+                  .body_bottom{
+                      height: 210px;
+                    .number{
+                        font-size: 14px;
+                        line-height: 16px;
+                        min-height: 66px;
+                    }
+                    .clothes{
+                        font-size: 14px;
+                        line-height: 16px;
+                    }
+                    .price{
+                        font-size: 36px;
+                        line-height: 43px;
+                    }
+                    a{
+                        font-size: 14px;
+                        line-height: 16px;
+                        padding: 10px 30px;
+                        img{
+                            width: 10%;
+                        }
+                    }
+                  }
+                }
+              }
+            }
+            .small{
+              .card_items{
+                .card_body{
+                  .body_bottom{
+                    .number{
+                        padding: 24px 0;
+                    }
+                  }
+                }
+              }
+            }
+            .big{
+              .card_items{
+                .card_body{
+                  .body_bottom{
+                    .number{
+                        padding: 16px 0;
+                    }
+                  }
+                }
+              }
+            }
+        }
+        .button_block{
+            padding: 40px 0;
+        }
+    }
+}
+@media (max-width:660px){
+    .card_container{
+        .title{
+            align-items: center;
+          h2.text_title{    
+              font-size: 34px;
+              line-height: 38px; 
+              padding: 22px 10px 22px 31px; 
+          }
+          &:before{
+            content: none;
+          }
+          &:after{
+            content: url("../images/Vector102.png");
+            right: 26%;
+            top: 35%;
+          }
+        }
+        .list_content{
+            .big, .small{
+                padding-bottom: 170px;
+              .card_items{
+                width: 189px;
+                height: 171px;
+                .card_body{
+                  .body_bottom{
+                    height: 200px;
+                    a{
+                      svg{
+                        width: 30px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+        }
+        .button_block{
+          a{
+              width: 80%;
+          }
+        }
+    }
+}
+@media (max-width:500px){
+  .card_container{
+    .title{
+      &:after{
+        right: 15%;
+      }
+    }
+  }
+}
+@media (max-width:400px){
+  .card_container{
+    .title{
+      justify-content: flex-start;
+      &:after{
+        right: 35%;
+      }
+    }
+  }
+}

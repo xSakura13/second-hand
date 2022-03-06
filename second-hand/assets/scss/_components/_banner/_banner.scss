@@ -1,0 +1,98 @@
+.banner{
+    background-image: url('../img/bannerBG.png');
+    background-size: cover;
+    padding: 90px 0 30px;
+    background-attachment: fixed;
+    background-position: center;
+    .bannerContainer{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+}
+.goUp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #DF042E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DF042E;
+    transition: 600ms;
+    z-index: 30;
+    svg{
+        transform: rotate(270deg);
+        stroke: white;
+        width: 40px;
+        height: 40px;
+
+        path{
+            stroke: white;
+            fill: white;
+        }
+    }
+}
+.goUp:hover{
+    background-color: white;
+    border: 1px solid black;
+    transition: 600ms;
+    svg{
+        stroke: #DF042A;
+        path{
+            stroke: #DF042A;
+            fill: #DF042A;
+            transition: 600ms;
+        }
+    }
+}
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+}
+.originalBG{
+    background-image: url('../img/originalBanner.png')!important;
+    position: relative;
+    .flag_line{
+        background: #DF042A;
+        position: absolute;
+        width: 70px;
+        height: 1000px;
+        border-bottom-right-radius: 80px;
+        right: 6%;
+        top: 0;
+        .englang{
+            background-image: url("../images/flag-england.png");
+            width: 42px;
+            height: 42px;
+            margin: 0 auto;
+        }
+        .scotland{
+            background-image: url("../images/flag-scotland.png");
+            width: 42px;
+            height: 42px;
+            margin: 0 auto;
+        }
+    }
+}
+.originalBG{
+    background-image: url('../img/originalBanner.png')!important;
+}
+.sortBG{
+    background-image: url('../img/sortBG.png')!important;
+}
+.sliderRound{
+    height: 15px !important;
+    width: 15px!important;
+    border-radius: 50% !important;
+    border: solid 1px white !important;
+    background-color: transparent!important;
+    opacity: 1 !important;
+}
+.carousel-indicators .active{
+    background-color: white!important;
+}

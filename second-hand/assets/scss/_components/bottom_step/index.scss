@@ -1,0 +1,140 @@
+.bottom_step{
+  background-color: #FFFFFF;
+  .container_british{
+    h4{
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 59px;
+      text-transform: uppercase;
+      padding-bottom: 87px;
+      padding-left: 1%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      margin: 0;
+      justify-content: flex-end;
+      overflow: hidden;
+      img.lineHorizontal{
+        display: none;
+      }
+      img.line{
+        width: 23%;
+        padding-left: 3%;
+      }
+      &::before{
+        content: url(./../images/Vector41.png);
+        position: absolute;
+        bottom: 71%;
+        left: 2%;
+      }
+    }
+  }
+}
+@media (max-width:1292px){
+  .bottom_step{
+    .container_british{
+      h4{
+        font-size: 47px;
+      }
+    }
+  }
+}
+@media (max-width:1230px){
+  .bottom_step{
+    .container_british{
+      h4{
+        font-size: 44px;
+      }
+    }
+  }
+}
+@media (max-width:1150px){
+  .bottom_step{
+    .container_british{
+      h4{
+        font-size: 40px;
+        padding: 50px 0;
+        &::before{
+          bottom: 42%;
+        }
+      }
+    }
+  }
+}
+@media (max-width:1060px){
+  .bottom_step{
+    .container_british{
+      h4{
+        font-size: 38px;
+        img.line{
+          padding-left: 2%;
+          width: 17%;
+        }
+      }
+    }
+  }
+}
+@media (max-width:970px){
+  .bottom_step{
+    .container_british{
+      h4{
+        font-size: 33px;
+      }
+    }
+  }
+}
+@media (max-width:870px){
+  .bottom_step{
+    .container_british{
+      h4{
+        justify-content: space-between;
+        img.line{
+          width: 9%;
+        }
+        &:before{
+          content: none;
+        }
+        img.lineHorizontal{
+          display: block;
+          width: 9%;
+          padding-right: 2%;
+        }
+      }
+    }
+  }
+}
+@media (max-width:716px){
+  .bottom_step{
+    .container_british{
+      h4{
+        text-align: center;
+        font-size: 32px;
+        line-height: 34px;
+      }
+    }
+  }
+}
+@media (max-width:560px){
+  .bottom_step{
+    .container_british{
+      h4{
+        font-size: 30px;
+        line-height: 32px;
+        img.line{
+          width: 11%;
+        }
+        img.lineHorizontal{
+          width: 11%;
+        }
+      }
+    }
+  }
+}
+@media (max-width:415px){
+  .bottom_step{
+    .container_british{
+      h4{
+      }
+    }
+  }
+}

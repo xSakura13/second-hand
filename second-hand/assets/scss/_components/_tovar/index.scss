@@ -1,0 +1,401 @@
+.tovar{
+    background-color: #DF042A;
+    background-image: url('../img/tovarBG.png');
+    background-size: cover;
+    .tovarContainer{
+        max-width: 1400px;
+        margin: 0 auto;
+        .btn-custom{
+            margin-bottom: 0;
+            width: 70%;
+            border: #DF042A solid 1px;
+        }
+        .btn-custom:hover{
+            border: white solid 1px;
+        }
+    }
+    .catalog{
+        padding: 108px 0;
+        h3{
+            font-size: 44px;
+            text-transform: uppercase;
+            margin-bottom: 27px;
+        }
+    }
+    .zima , .vesna, .lito , .osen{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 100%;
+        
+        
+        
+        padding-bottom: 20px;
+        
+        a{
+            font-weight: bold;
+            font-size: 48px;
+            color: white;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            .turn{
+                transform: rotate(270deg);
+            }
+
+            
+        }
+    }
+    .zima , .lito, .osen{
+        background-color:#700215 ;
+        background: rgba(112,2,21, 0.4);
+    }
+    .zima:hover,.lito:hover,.osen:hover{
+        background: rgba(112,2,21, 0.8);
+    }
+    .vesna:hover{
+        background: rgba(45,1,8, 0.8);
+    }
+    .vesna{
+        background-color: #2d0108;
+        background: rgba(45,1,8, 0.4);
+        a{
+            .turn{
+                margin-bottom: 42px ;
+            }
+
+            
+        }
+    }
+    .zima{
+        border-left:1px solid white ;
+        border-right: 1px solid white;
+        a{
+            .turn{
+                margin-bottom: 31px ;
+            }
+
+            
+        }
+    }
+    .lito{
+        a{
+            .turn{
+                margin-bottom: 20px ;
+            }
+
+            
+        }
+    }
+    .osen{
+        a{
+            .turn{
+                margin-bottom: 32px ;
+            }
+
+            
+        }
+    }
+    .lito , .vesna , .osen{
+        border-right: 1px solid white;
+    }
+}
+.sortTovar{
+    padding: 40px 0;
+    background-image: none;
+    background-color: white;
+    .redLine{
+        position: relative;
+    }
+    .redLine::before{
+        content: ' ';
+        position: absolute;
+        border-radius: 0 0 0 75px;
+        border-left: solid #DF042A 1px;
+        border-bottom: #DF042A solid 1px;
+        width: 20%;
+        height: 175px;
+        left: 20px;
+        bottom: 50%;
+    }
+    .redLine::after{
+        content: ' ';
+        position: absolute;
+        border-bottom: #DF042A solid 1px;
+        width: 20%;
+        height: 120px;
+        right: 20px;
+        bottom: 50%;
+    }
+    .zima , .vesna, .lito , .osen{
+        height: 600px;
+        padding: 0;
+        a{
+            position: relative;
+            span{
+                position: absolute;
+                left: -5%;
+            }
+            .abs3{
+                width: 40px;
+                height: 7px;
+                background-color: #DF042A;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }    
+        
+    }
+    .zima , .lito, .osen{
+        a{
+            background-color:#000000 ;
+            background: rgba(0,0,0, 0.4);
+        }
+    }
+    .zima:hover{
+        background:none ;
+        background-image: url('../img/zimaSort.png');
+        a{
+            background-color:#000000 ;
+            background: rgba(0,0,0, 0.1);
+        }
+    }
+    .osen:hover{
+        background:none ;
+        background-image: url('../img/osenSort.png');
+        a{
+            background-color:#000000 ;
+            background: rgba(0,0,0, 0.1);
+        }
+    }
+    .lito:hover{
+        background:none ;
+        background-image: url('../img/litoSort.png');
+        a{
+            background-color:#000000 ;
+            background: rgba(0,0,0, 0.1);
+        }
+    }
+    .vesna:hover{
+        background:none ;
+        background-image: url('../img/vesnaSort.png');
+        a{
+            background-color:#000000 ;
+            background: rgba(0,0,0, 0.1);
+        }
+    }
+    .vesna{
+        border: none;
+        background-image: url('../img/vesnaSort.png');
+        a{
+            background-color:#000000 ;
+            background: rgba(0,0,0, 0.4);
+            .turn{
+                margin-bottom: 0 ;
+                bottom: 70px;
+                font-size: 60px;
+            }
+
+            
+        }
+    }
+    .zima{
+       border: none;
+       background-image: url('../img/zimaSort.png');
+       padding: 0 !important;
+        a{
+            .turn{
+                margin-bottom: 0 ;
+                bottom: 60px;
+                font-size: 60px;
+            }
+
+            
+        }
+    }
+    .lito{
+        border: none;
+        background-image: url('../img/litoSort.png');
+        a{
+            .turn{
+                margin-bottom: 0 ;
+                bottom: 45px;
+                font-size: 60px;
+            }
+
+            
+        }
+    }
+    .osen{
+        border: none;
+        background-image: url('../img/osenSort.png');
+        border-radius: 0 0 70px 0;
+        a{
+            border-radius: 0 0 70px 0;
+            .turn{
+                margin-bottom: 0 ;
+                bottom: 65px;
+                font-size: 60px;
+            }
+
+            
+        }
+    }
+    .lito , .vesna , .osen{
+        border:none
+    }
+    
+       
+}
+@media(max-width:1400px){
+.tovar{
+    .tovarContainer{
+        max-width: 1200px;
+        h3{
+            font-size: 40px;
+        }
+        a{
+            font-size: 44px!important;
+        }
+    }
+}
+}
+@media(max-width:1200px){
+    .tovar{
+        .tovarContainer{
+            max-width: 992px;
+            h3{
+                font-size: 31px;
+            }
+            a{
+                font-size: 40px!important;
+            }
+
+        }
+    }
+    .sortTovar{
+        .redLine::before{
+            width: 18%;
+        }
+        .redLine::after{
+            width: 18%;
+        }
+    }
+}
+@media(max-width:992px){
+    .tovar{
+        .tovarContainer{
+            max-width: 100%;
+            .catalog{
+                padding: 80px;
+                text-align: center;
+                .btn-custom{
+                    display: none;
+                }
+            }
+            h3{
+                font-size: 28px;
+                margin: 0;
+            }
+            a{
+                font-size: 38px!important;
+            }
+            .zima{
+                padding-top: 170px;
+            }
+        }
+    }
+    .sortTovar{
+        .redLine::before{
+            width: 10%;
+        }
+        .redLine::after{
+            width: 10%;
+        }
+    }
+}
+@media(max-width:768px){
+    .tovar{
+        .tovarContainer{
+            .catalog{
+                padding: 60px;
+            }
+            h3{
+                font-size: 26px;
+
+            }
+            a{
+                font-size: 37px!important;
+            }
+            .zima{
+                padding-top: 150px;
+            }
+        }
+    }
+    .sortTovar{
+        .zima , .vesna, .lito , .osen{
+            height: 400px;
+            a{
+                span{
+                    left: -10%;
+                }
+            }    
+            
+        }
+        .redLine::before{
+            display: none;
+        }
+        .redLine::after{
+            display: none;
+        }
+           
+    }
+}
+@media(max-width:576px){
+    .tovar{
+        .tovarContainer{
+            .catalog{
+                padding: 40px;
+            }
+            h3{
+                font-size: 24px;
+
+            }
+            a{
+                font-size: 38px!important;
+            }
+            .zima{
+                padding-top: 120px;
+            }
+        }
+    }
+    .sortTovar{
+        .redLine::before{
+            display: none;
+        }
+        .redLine::after{
+            display: none;
+        }
+        .zima , .vesna, .lito , .osen{
+            height: 400px;
+            a{
+                span{
+                    left: -26%;
+                    font-size: 50px !important;
+                }
+            }    
+            
+        }
+        .osen{
+            a{
+                span{
+                    left: -36%;
+                }
+            }
+        }
+           
+    }
+}

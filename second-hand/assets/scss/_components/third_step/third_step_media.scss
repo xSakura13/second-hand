@@ -1,0 +1,395 @@
+@media (max-width:1292px){
+    .third_step{
+        .third_wrapper{
+            .third_wrapper_right{
+                h4{
+                    font-size: 47px;
+                }
+                .card_list{
+                    .cart{
+                        .red_line1{
+                            right: -12%;
+                        }
+                        .red_line2{
+                            right: -12%;
+                        }
+                        .red_line3{
+                            right: -12%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:1230px){
+    .third_step{
+        .third_wrapper{
+            .third_wrapper_right{
+                h4{
+                    font-size: 44px;
+                }
+                .card_list{
+                    .cart{
+                        .red_line1{
+                            right: -13%;
+                        }
+                        .red_line2{
+                            right: -13%;
+                        }
+                        .red_line3{
+                            right: -13%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:1150px){
+    .third_step{
+        .third_wrapper{
+            .third_wrapper_right{
+                h4{
+                    font-size: 41px;
+                }
+                .card_list{
+                    .cart{
+                        .cart_wrapper{
+                            padding-bottom: 0;
+                            .contact_card{
+                                li{
+                                    br{
+                                        display: block;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:1060px){
+    .third_step{
+        .third_wrapper{
+            .third_wrapper_right{
+                h4{
+                    font-size: 40px;
+                    padding-bottom: 60px;
+                    img.lineHorizontal{
+                        display: block;
+                        padding-right: 3%;
+                    }
+                    img.line{
+                        display: none;
+                    }
+                    &::before{
+                        content: none;
+                    }
+                    &::after{
+                        content: url(./../images/Vector103.png);
+                        padding: 0 0 3% 3%;
+                    }
+                }
+                .card_list{
+                    .cart{
+                        .red_line1{
+                            right: -14%;
+                        }
+                        .red_line2{
+                            right: -14%;
+                        }
+                        .red_line3{
+                            right: -14%;
+                        }
+                        .cart_wrapper{
+                            p.name{
+                                font-size: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:1024px){
+    .third_step{
+        .third_wrapper{
+            .third_wrapper_right{
+                .card_list{
+                    .cart{
+                        .red_line1{
+                            right: -15%;
+                        }
+                        .red_line2{
+                            right: -15%;
+                        }
+                        .red_line3{
+                            right: -15%;
+                        }
+                        .cart_wrapper{
+                            p.name{
+                                font-size: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:970px){
+    .third_step{
+        .third_wrapper{
+            .third_wrapper_right{
+                h4{
+                    font-size: 36px;
+                    line-height: 40px;
+                }
+                .card_list{
+                    .slick-list{
+                        padding: 90px 0!important;
+                    }
+                    .cart{
+                        margin-right: 20px;
+                        .red_line1{
+                            right: -16%;
+                        }
+                        .red_line2{
+                            right: -16%;
+                        }
+                        .red_line3{
+                            right: -16%;
+                        }
+                        .cart_wrapper{
+                            .img{
+                                img{
+                                    height: 200px;
+                                }
+                            }
+                            .contact_card{
+                                .tel, .mail{
+                                    img{
+                                        top: 8%;
+                                    }
+                                }
+                                .skype{
+                                    img{
+                                        top: 3%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:870px){
+    .third_step{
+        .third_wrapper{
+            .third_wrapper_right{
+                h4{
+                    font-size: 32px;
+                    line-height: 38px;                    
+                }
+                .card_list{
+                    .slick-list{
+                        padding: 80px 0!important;
+                    }
+                    .cart{
+                        height: 350px;
+                        .red_line1{
+                            right: -17%;
+                            top: 12%;
+                        }
+                        .red_line2{
+                            right: -17%;
+                            top: 40%;
+                        }
+                        .red_line3{
+                            right: -17%;
+                            bottom: 12%;
+                        }
+                        .cart_wrapper{
+                            .img{
+                                top: -16%;
+                                img{
+                                    height: 150px;
+                                }
+                            }
+                            p.job{    
+                                margin-bottom: 20px;
+                                padding: 7px 0;
+                                font-size: 16px;
+                                line-height: 18px;               
+                            }
+                            .contact_card{
+                                li{
+                                    padding-bottom: 13px;
+                                    a{
+                                        font-size: 16px;
+                                    }
+                                }
+                                .tel, .mail{
+                                    img{
+                                        top: 11%;
+                                    }
+                                }
+                                .skype{
+                                    img{
+                                        top: 8%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:820px){
+    .third_step{
+        .third_wrapper{
+            .third_wrapper_right{
+                .card_list{
+                    .cart{
+                        width: 270px !important;
+                        .red_line1{
+                            right: -16%;
+                        }
+                        .red_line2{
+                            top: 12%;
+                            right: -16%;
+                        }
+                        .red_line3{
+                            top: 13%;
+                            bottom: 100%;
+                            right: -18%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:716px){
+    .third_step{
+        .third_wrapper{
+            justify-content: center;
+            width: 100%;
+            .third_wrapper_right{
+                h3{
+                    font-size: 24px;
+                    display: flex;
+                    align-items: center;
+                    width: 90%;
+                    padding-top: 10px;
+                    span.big_number_media{
+                        display: block;
+                        font-size: 125px;
+                        font-weight: 900;
+                        line-height: 149px;
+                        color: #DF042A;
+                        opacity: 0.6;
+                        width: 20%;
+                        padding-right: 11px;
+                    }
+                }
+                h4{
+                    background-color: #FFFFFF;
+                    padding: 30px 0;
+                    margin: 0;
+                }
+                .card_list{
+                    width: 100%;
+                    .slick-list{
+                        padding: 60px 0 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:560px){
+    .third_step{
+        .third_wrapper{
+            .third_wrapper_right{
+                h3{
+                    width: 100%;
+                    font-size: 20px;
+                    line-height: 22px;
+                    span.big_number_media{
+                        font-size: 110px;
+                        line-height: 120px;
+                    }
+                }
+                h4{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+@media (max-width:415px){
+    .third_step{
+        .third_wrapper{
+            .third_wrapper_right{
+                h3{
+                    font-size: 18px;
+                    line-height: 20px;
+                    span.big_number_media{
+                        font-size: 96px;
+                        line-height: 106px;
+                    }
+                }
+                h4{
+                    font-size: 30px;
+                    line-height: 35px;
+                    img.lineHorizontal{
+                        padding: 0;
+                    }
+                    &::after{
+                        padding: 0 0 5% 0;
+                    }
+                }
+                .card_list{
+                    .cart{
+                        width: 250px !important;
+                        height: 347px;
+                        .red_line1{
+                            right: -17%;
+                        }
+                        .red_line2{
+                            right: -17%;
+                        }
+                        .red_line3{
+                            right: -19%;
+                        }
+                        .cart_wrapper{
+                            p.name{
+                                font-size: 24px;
+                            }
+                            p.job{             
+                                font-size: 12px;
+                                line-height: 13px;      
+                            }
+                            .contact_card{
+                                li{
+                                    a{
+                                        font-size: 18px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

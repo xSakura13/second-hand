@@ -1,0 +1,94 @@
+.bannerr{
+    background-attachment: fixed;
+    .banner-wrapper{
+        background: #01206C;
+        position: relative;
+        .carousel-indicators{
+            margin-bottom: 21px;
+            .circle{
+                border: 2px solid #FFFFFF;
+                background: transparent;
+                width: 20px;
+                height: 20px;
+                border-radius: 20px;
+            }
+            .active{
+                background: #FFFFFF;
+            }
+        }
+        .carousel-inner{
+            .carousel-item{
+                img{
+                    opacity: 0.5;
+                }
+                .carousel-caption{
+                    bottom: 5.25rem;
+                    left: 10%;
+                    width: 70%;
+                    z-index: 10;
+                    text-align: left;
+                    h2{
+                        font-size: 50px;
+                        font-weight: 700;
+                        line-height: 59px;
+                        color: #FFFFFF;
+                        text-transform: uppercase;
+                        padding-bottom: 17px;
+                        margin-bottom: 0;
+                    }
+                    p{
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 32px;
+                        color: #FFFFFF;
+                        padding-bottom: 46px;
+                        letter-spacing: 0.09em;
+                        margin-bottom: 0;
+                    }
+                    form{
+                        width: 60%;
+                        padding: 18px 0;
+                        background-color: #FFFFFF;
+                        border-radius: 20px;
+                        justify-content: center;
+                        a{
+                            font-size: 24px;
+                            font-weight: 700;
+                            line-height: 28px;
+                            color: #000000;
+                        }
+
+                        .img-red-tel{
+                            img{
+                                padding: 4px 20px 0 0 ;
+                                opacity: 1;
+                            }
+                        }
+                        .img-red-arrow{
+                            img{
+                                opacity: 1;
+                                padding: 10px 0 0 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .carousel-control-next, .carousel-control-prev{
+            width: 7%;
+            opacity: 1;
+        }
+        .carousel-control-next-icon{
+            background-image: url(./../images/right.png);
+            width: 2rem;
+            height: 4rem;
+            background-size: 80% 80%;
+        }
+        .carousel-control-prev-icon{
+            background-image: url(./../images/left.png);
+            width: 2rem;
+            height: 4rem;
+            background-size: 80% 80%;
+        }
+    }
+}

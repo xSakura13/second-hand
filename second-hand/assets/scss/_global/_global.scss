@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+
+    ul{
+        li{
+            list-style: none;
+        }
+    }
+    a{
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;  
+    }
+    h1{
+        font-size: 50px;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    h3{
+        font-size: 36px ;
+        font-weight: bold;
+    }
+    .btn-custom{
+        width: 100%;
+        background-color: white;
+        border-radius: 20px;
+        padding: 18px 0;
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 50px;
+        transition: 500ms;
+        display: inline-block;
+        svg{
+            margin-right:15px ;
+            fill:#DF042A;
+            transition: 500ms;
+            stroke:#DF042E
+        }
+    }
+    .btn-custom:hover{
+        color: white;
+        background-color: #DF042A;
+        transition: 500ms;
+        svg{
+            fill: white;
+            transition: 500ms;
+            stroke:#ffffff
+        }
+    }
+
+}
+@media (max-width:1400px){
+    body{
+        font-size: 21px;
+        h1{
+            font-size: 43px;
+        }
+        h3{
+            font-size: 33px ;
+        }
+        .btn-custom{
+            font-size: 21px;
+        }
+    }
+}
+@media (max-width:1200px){
+    body{
+        font-size: 20px;
+        h1{
+            font-size: 38px;
+        }
+        h3{
+            font-size: 30px ;
+        }
+        .btn-custom{
+            font-size: 20px;
+        }
+    }
+}
+@media (max-width:768px){
+    body{
+        font-size: 19px;
+        h1{
+            font-size: 37px;
+        }
+        h3{
+            font-size: 27px ;
+        }
+        .btn-custom{
+            font-size: 19px;
+            width: 70%;
+        }
+    }
+}
+@media (max-width:576px){
+    body{
+        font-size: 18px;
+        h1{
+            font-size: 36px;
+        }
+        h3{
+            font-size: 24px ;
+        }
+        .btn-custom{
+            font-size: 18px;
+            width: 100%;
+            svg{
+                width: 10%;
+            }
+        }
+    }
+}

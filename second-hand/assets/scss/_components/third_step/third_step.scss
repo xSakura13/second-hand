@@ -1,0 +1,129 @@
+.third_step{
+    img{
+        max-width: 100%;
+    }
+    .third_wrapper{
+        display: flex;
+        .third_wrapper_right{
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            h3{
+                span.big_number_media{
+                    display: none;
+                }
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 26px;
+                text-align: left;
+                padding-top: 51px;
+            }
+            .card_list{
+                display: flex;
+                .slick-list{
+                    padding: 100px 0!important;
+                }
+                .cart{
+                    width: 357px;
+                    height: 428px;
+                    background-color: #ffffff;
+                    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.15);
+                    border-radius: 50px 0px 0px 0px;
+                    margin-right: 27px;
+                    display: flex;
+                    justify-content: center;
+                    position: relative;
+                    .red_line1{
+                        position: absolute;
+                        transform: rotate(90deg);
+                        z-index: 10;
+                        right: -11%;
+                        top: 9%;
+                    }
+                    .red_line2{
+                        position: absolute;
+                        transform: rotate(90deg);
+                        z-index: 10;
+                        right: -11%;
+                        top: 49%;
+                    }
+                    .red_line3{
+                        position: absolute;
+                        transform: rotate(90deg);
+                        z-index: 10;
+                        right: -11%;
+                        bottom: 9%;
+                    }
+                    .cart_wrapper{
+                        width: 80%;
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        padding-bottom: 20px;
+                        .img{
+                            position: absolute;
+                            top: -16%;
+                            img{
+                                border-bottom: 2px solid #DF042E;
+                                height: 220px;
+                            }
+                        }
+                        p.name{
+                            font-size: 24px;
+                            font-weight: 700;
+                            line-height: 26px;
+                            text-align: center;
+                            color: #01206C;
+                        }
+                        p.job{
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            text-align: center;
+                            color: #ffffff;
+                            background-color: #01206C; 
+                            padding: 8px 0 11px 0; 
+                            margin-bottom: 27px;                      
+                        }
+                        .contact_card{
+                            li{
+
+                                position: relative;
+                                padding-bottom: 20px;
+                                a{
+                                    width: 100%;
+                                    color: #01206C;
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    line-height: 20px;
+                                    text-align: left;
+
+                                }
+                                br{
+                                    display: none;
+                                }
+                            }
+                            .tel, .mail{
+                                img{
+                                    position: absolute;
+                                    left: -13%;
+                                    top: 15%;
+                                    width: 7%;
+                                }
+                            }
+                            .skype{
+                                img{
+                                    position: absolute;
+                                    left: -15%;
+                                    top: 0%;
+                                    width: 10%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.season{
+    //padding: 15px 0;
+    background-color: #DF042A;
+    .seasonContainer{
+        margin: 0 auto;
+        //padding: 0 15px ;
+        .season-menu{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0;
+            padding-left: 0;
+            .menu-item{
+                //border-right: solid 1px white ;
+                width: calc(100%/4);
+                text-align: center;
+                padding: 15px 0;
+                &:hover{
+                    background-color: #FFFFFF;
+                    transition: 0.3s all;
+                    a{
+                        color: #DF042A;
+                    }
+                }
+                a{
+                    color: white;
+                    display: block;
+                    align-items: center;
+                    transition: 350ms;
+                }
+                a:not(:nth-child(4)){
+                    border-right: solid 1px white ;
+                }
+            }
+        }
+    }
+}
+@media(max-width:1300px){
+    .season{
+
+        .seasonContainer{
+            max-width: 1100px;
+        }
+    }
+}
+@media(max-width:768px){
+    .season{
+        display: none;
+
+    }
+}

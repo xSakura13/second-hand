@@ -1,0 +1,341 @@
+.commentClient{
+    padding: 0 0 60px;
+    .btn-custom{
+        margin: 0;
+        border: #DF042A solid 1px;
+    }
+    .commentClientContainer{
+        max-width: 1380px;
+        margin: 0 auto;
+        .hLine{
+            position: relative;
+        }
+        .hLine::after{
+            content: " ";
+            position: absolute;
+            width: 500px;
+            height: 1055px;
+            right: -103%;
+            top: 40%;
+            border-radius: 0 75px 75px 0;
+            border-right:solid #DF042A 1px ;
+            border-top:solid #DF042A 1px ;
+            border-bottom:solid #DF042A 1px ;
+        }
+        .hLine::before{
+            content: " ";
+            position: absolute;
+            width: 400px;
+            height: 1px;
+            right: -35%;
+            top: 40%;
+            background-color: #DF042A;
+        }
+        .rLine{
+            position: relative;
+        }
+        .rLine::before{
+            content: " ";
+            position: absolute;
+            width: 95px;
+            height: 1px;
+            left: -14%;
+            top: 47%;
+            background-color: #DF042A;
+        }
+        .video_nav,.video_nav1{
+            .nav__item{
+                padding: 0 15px 0 0;
+            }
+            iframe{
+                pointer-events: none;
+            }
+        }
+        .customCarousel{
+            .button{
+                display: flex;
+                margin-left: 30px;
+                .pred-video{
+                    margin-right: 20px;
+
+                }
+                svg{
+                    stroke: #000000;
+                }
+                .active{
+                    transition: 300ms;
+                    svg{
+                        stroke: #DF042A;
+                        cursor: pointer;
+                    }
+                }
+                .active:hover{
+                    transform: scale(1.3);
+                    transition: 300ms;
+                }
+            }
+            .customCarouselWrapper{
+                display: flex;
+                height: 360px;
+                justify-content: space-between;
+                padding: 60px 0;
+                align-items: center;
+                .customCarouselItem{
+                    padding: 15px;
+                    width: calc(90% / 3);
+                    height: 300px;
+                    transition: 100ms;
+                    position: relative;
+                    cursor: not-allowed	;
+                    iframe{
+                        
+                        border-radius: 13px;
+                        pointer-events: none;
+                        
+                    }
+                }
+                .videoTitle{
+                    position: absolute;
+                    background: rgba(0, 0, 0, 0.5);
+                    width: calc(100% - 30px);
+                    bottom: 15px;
+                    border-radius: 0 0 13px 13px;
+                    left: 15px;
+                    height: 70px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 24px;
+                    font-weight: bold;
+                    z-index: 100;
+                    color: white;
+                  }
+                .active{
+                    width: 40%;
+                    height: 330px;
+                    cursor: pointer;
+                    iframe{
+                        pointer-events: auto;
+                    }
+                }
+            }
+           
+        }
+    }
+}
+@media(max-width:1400px){
+    .commentClient{
+        padding: 0 0 50px;
+        .commentClientContainer{
+            max-width: 1180px;
+            .hLine::after{
+                width: 410px;
+                height: 965px;
+                right: -103%;
+                top: 40%;
+            }
+            .hLine::before{
+                width: 310px;
+                height: 1px;
+                right: -33%;
+                top: 40%;
+            }
+            .customCarousel{
+                .customCarouselWrapper{
+                    height: 330px;
+                    padding: 40px 0;
+                    .customCarouselItem{
+                        height: 290px;
+                    }
+                    .active{
+                        width: 40%;
+                        height: 320px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:1200px){
+    .commentClient{
+        padding: 0 0 45px;
+        .commentClientContainer{
+            max-width: 950px;
+            .hLine::after{
+                width: 330px;
+                height: 900px;
+                right: -75%;
+            }
+            .customCarousel{
+                .customCarouselWrapper{
+                    height: 250px;
+                    padding: 30px 0;
+                    .customCarouselItem{
+                        height: 220px;
+                        padding: 10px;
+                        .videoTitle{
+                            width: calc(100% - 20px);
+                            bottom: 10px;
+                            left: 10px;
+                            height: 50px;
+                          }
+                    }
+                    .active{
+                        width: 40%;
+                        height: 235px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:992px){
+    .commentClient{
+        padding: 0 0 40px;
+        .commentClientContainer{
+            max-width: 750px;
+            padding: 0 15px;
+            .hLine::after{
+                height: 1090px;
+                right: -2%;
+                top: 40%;
+            }
+            .hLine::before{
+                right: 10%;
+                width: 250px;
+            }
+            .rLine::before{
+                left: -3%;
+                width: 40px;
+            }
+            .videoTitle{
+                position: absolute;
+                background: rgba(0, 0, 0, 0.5);
+                width: calc(100% - 15px);
+                bottom: 2px;
+                border-radius: 0 0 25px 25px;
+                left: 0;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 20px;
+                font-weight: bold;
+                z-index: 100;
+                color: white;
+                text-align: center;
+            }
+            .videoTitleFull{
+                position: absolute;
+                background: rgba(0, 0, 0, 0.5);
+                width: calc(100% / 1);
+                bottom: 0;
+                border-radius: 0 0 25px 25px;
+                left: 0;
+                height: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 22px;
+                font-weight: bold;
+                z-index: 100;
+                color: white;
+            }
+                .video_wrapper{
+                    height: 300px;
+                    iframe{
+                        border-radius: 25px;
+                    }
+                }
+                .nav__item{
+                    position: relative;
+                    iframe{
+                        border-radius: 25px;
+                    }
+                }
+            
+            .customCarousel{
+                .customCarouselWrapper{
+                    height: 700px;
+                    padding: 30px 0;
+                    flex-wrap: wrap;
+                    .customCarouselItem{
+                        width: 50%;
+                        height: 250px;
+
+                    }
+                    .active{
+                        width: 100%;
+                        height: 400px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:768px){
+    .commentClient{
+        padding: 0 0 35px;
+        .commentClientContainer{
+            max-width: 550px;
+            .hLine::after{
+                height: 570px;
+                width: 150px;
+            }
+            .hLine::before{
+                display: none;
+            }
+            .rLine::before{
+                display: none;
+            }
+            
+                .video_wrapper{
+                    height: 250px;
+                }
+            
+            
+                .nav__item{
+                    height: 120px;
+                }
+                .videoTitle{
+                    bottom: 0;
+                    font-size: 19px;
+                }
+            .customCarousel{
+                .customCarouselWrapper{
+                    height: 500px;
+                    padding: 20px 0;
+                    .customCarouselItem{
+                        height: 150px;
+                    }
+                    .active{
+                        height: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:576px){
+    .commentClient{
+        padding: 0 0 30px;
+        .commentClientContainer{
+            max-width: 100%;
+            .hLine::after{
+               display: none;
+            }
+            .customCarousel{
+                .customCarouselWrapper{
+                    height: 400px;
+                    padding: 20px 0;
+                    .customCarouselItem{
+                        height: 120px;
+                    }
+                    .active{
+                        height: 250px;
+                    }
+                }
+            }
+        }
+    }
+}

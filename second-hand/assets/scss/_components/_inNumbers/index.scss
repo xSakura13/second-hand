@@ -1,0 +1,30 @@
+.inNumbers{
+    padding: 70px 0;
+    .number{
+        font-size: 96px;
+        font-weight: bold;
+        color: #DF042A;
+    }
+    .brd{
+        width: 44px;
+        height: 1px;
+        background-color: black;
+        margin-bottom: 20px;
+    }
+    .text{
+        color: #A8A8A8;
+        font-weight: bold;
+    }
+}
+@media(max-width:576px){
+    .inNumbers{
+        padding: 40px 0;
+        .number{
+            font-size: 80px;
+
+        }
+        h1{
+            font-size: 30px;
+        }
+    }
+}
